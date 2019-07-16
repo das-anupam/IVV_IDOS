@@ -1,0 +1,23 @@
+ORG_TYPE|ORG_LGL_NAME|ORG_DBA_NAME|ORG_CCN|ORG_EIN|ORG_TIN|ORG_NPI|CMMI_PRTY_ID|PRNT_ORG_EIN|ORG_INC_DATE|ORG_INC_STATE|ADR1_TYPE|ADR1_LINE_1|ADR1_LINE_2|ADR1_CITY|ADR1_STATE|ADR1_ZIP_5|ADR1_ZIP_4|ADR1_TEL|ADR1_TEL_EXTNSN|ADR1_FAX|ADR1_EMAIL|ADR2_TYPE|ADR2_LINE_1|ADR2_LINE_2|ADR2_CITY|ADR2_STATE|ADR2_ZIP_5|ADR2_ZIP_4|ADR2_TEL|ADR2_TEL_EXTNSN|ADR2_FAX|ADR2_EMAIL|ORG_STUS|ORG_STUS_RSN
+PGP|Arbutus Home Health Services|Arbutus Home Health Services|100201|900811701|900801600|9008017001||||MD|PL|123 Maple Ave.|Suite 101|Baltimore|MD|21244||4101237111|||||||||||||||ACTV|
+PGP|Morgantown Home Health Services|Morgantown Home Health Services|100102|900811702|900802601|9008007002||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237112|||||||||||||||ACTV|
+PGP|Columbia Home Health Services|Columbia Home Health Services|100103|900811703|900803602|9008007003||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237113|||||||||||||||ACTV|
+PGP|Fairmont Home Health Services|Fairmont Home Health Services|100104|900811704|900804603|9008007004||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237114|||||||||||||||ACTV|
+PGP|Suncrest Home Health Services|Suncrest Home Health Services|100105|900811705|900805604|9008007005||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237115|||||||||||||||ACTV|
+PGP|Towson Home Health Services|Towson Home Health Services|100106|900811706|900806605|9008007006||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237116|||||||||||||||ACTV|
+PGP|Philly Home Health Services|Philly Home Health Services|100107|900811707|900807606|9008007007||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237117|||||||||||||||ACTV|
+PGP|Fairfax Home Health Services|Fairfax Home Health Services|100108|900811708|900808607|9008007008||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237118|||||||||||||||ACTV|
+PGP|Charlotte Home Health Services|Charlotte Home Health Services|100109|900811709|900809608|9008007009||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237119|||||||||||||||ACTV|
+PGP|Cleveland Home Health Services|Cleveland Home Health Services|100110|900811710|900801609|9008007010||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237020|||||||||||||||ACTV|
+PGP|New York Home Health Services|New York Home Health Services|100111|900811711|900802610|9008007011||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237221|||||||||||||||ACTV|
+PGP|Seattle Home Health Services|Seattle Home Health Services|100112|900811712|900803611|9008007012||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237222|||||||||||||||ACTV|
+PGP|Washington Home Health Services|Washington Home Health Services|100113|900811713|900804612|9008007013||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237223|||||||||||||||ACTV|
+PGP|Inner Harbor Home Health Services|Inner Harbor Home Health Services|100114|900811714|900805613|9008007014||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237224|||||||||||||||ACTV|
+PGP|Fells Home Health Services|Fells Home Health Services|100115|900811715|900800614|9008006715||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237225|||||||||||||||ACTV|
+PGP|Catonsville Home Health Services|Catonsville Home Health Services|100116|900811716|900807615|9008007016||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237226|||||||||||||||ACTV|
+PGP|Pittsburg Home Health Services|Pittsburg Home Health Services|100117|900811717|900808616|9008007017||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237227|||||||||||||||ACTV|
+PGP|Linden Home Health Services|Linden Home Health Services|100118|900811718|900809617|9008007018||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237228|||||||||||||||ACTV|
+PGP|Courtney Home Health Services|Courtney Home Health Services|100119|900811719|900801618|9008007019||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237229|||||||||||||||ACTV|
+PGP|West Run Home Health Services|West Run Home Health Services|100120|900811720|900802619|9008007020||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237330|||||||||||||||ACTV|
+PGP|Westland Home Health Services|Westland Home Health Services|100121|900811721|900803620|9008007021||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237331|||||||||||||||ACTV|
+PGP|Fredrick Home Health Services|Fredrick Home Health Services|100122|900811722|900804621|9008007022||||MD|PL|123 Maple Ave.|Suite 100|Baltimore|MD|21244||4101237332|||||||||||||||ACTV|

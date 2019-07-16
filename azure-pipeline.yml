@@ -1,0 +1,58 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - feature/*
+      - master
+  paths:
+    include:
+      - '*'
+    exclude:
+      - azure-pipelines.yml
+      - '*/azure-pipelines.yml'
+
+pool:
+  name: 'idos-shared-agent-pool' 
+
+steps:
+- task: Maven@3
+  displayName: 'Run Maven build'
+  inputs:
+    mavenPomFile: 'pom.xml'
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: 'clean install -DskipTests'
+- task: Bash@3
+  displayName: 'Create module specific staging folders'
+  inputs:
+    targetType: inline
+    script: 'mkdir src' # Required when targetType == Inline
+    workingDirectory: $(Build.ArtifactStagingDirectory)
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: 'target'
+    Contents: '*.jar'
+    targetFolder: $(Build.ArtifactStagingDirectory)/IVV
+
+# - task: CopyFiles@2
+#   # displayName: 'Copy src build artifacts to staging directory'
+#   inputs:
+#     sourceFolder: 'src'
+#     contents: src/**/target/?(*.jar)
+#     targetFolder: $(Build.ArtifactStagingDirectory)/src
+#     cleanTargetFolder: true
+#     # flattenFolders: true
+
+- task: PublishPipelineArtifact@0
+  inputs:
+    artifactName: 'src'
+    targetPath: $(Build.ArtifactStagingDirectory)/IVV
+
+
+

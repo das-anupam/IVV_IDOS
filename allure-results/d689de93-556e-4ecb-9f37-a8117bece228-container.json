@@ -1,0 +1,1 @@
+{"uuid":"d689de93-556e-4ecb-9f37-a8117bece228","name":"com.sparky.flows.ro.RadiationOncology.CloseBrowser","description":"","start":1562962367504,"stop":1562962367504,"children":["f4bf2dbf-d30a-4614-8886-f9235c7a6e77"],"afters":[{"name":"CloseBrowser","status":"passed","stage":"finished","description":"","start":1562962367504,"stop":1562962367504}]}

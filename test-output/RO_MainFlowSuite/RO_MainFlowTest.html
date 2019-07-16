@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>TestNG:  RO_MainFlowTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RO_MainFlowTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 16 14:24:45 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>59 seconds (59730 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sparky.flows.ro.RadiationOncology.ImplementationContractor()'><b>ImplementationContractor</b><br>Test class: com.sparky.flows.ro.RadiationOncology<br>Parameters: RO [Userid=RF_TestUser_89, Password=RF_Te_06_25_19, Role=RO_IC, ExecuteFlag=Y]<br/>
+<a href="#Output-652278729" onClick='toggleBox("Output-652278729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-652278729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-652278729">
+Listener Completed executing following method : RadiationOncology.ImplementationContractor<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_89, Password=RF_Te_06_25_19, Role=RO_IC, ExecuteFlag=Y],<br/>
+Listener Test Status has : Failed<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_89, Password=RF_Te_06_25_19, Role=RO_IC, ExecuteFlag=Y],<br/>
+Listener Test Status has : Failed<br/>
+Listener About to begin executing following method : RadiationOncology.CloseBrowser<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span class=&quot;rf-button-text&quot; style=&quot;border: solid 2px white&quot;&gt;...&lt;/span&gt; is not clickable at point (93, 693). Other element would receive the click: &lt;button id=&quot;rfFLButton1680476&quot; class=&quot;rf-file-input-button rf-file-button rf-proxy-button ng-scope&quot; data-ng-disabled=&quot;!object.uploadComponent.enableFileSelection&quot; data-ng-readonly=&quot;object.readonly || form.readonly&quot; data-ng-if=&quot;object.visible&quot; tabindex=&quot;0&quot; data-ng-click=&quot;triggerUpload(&apos;rfElement&apos; + object.id)&quot; title=&quot;&quot;&gt;...&lt;/button&gt;
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;MPALANISAMY&apos;, ip: &apos;10.1.50.158&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51176}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\Users\MEENAS~1.PAL\AppData\Local\Temp\scoped_dir8848_18802}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 58273cc09d597660300f71f1c479cd2c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.sparky.commonfunctions.ro.CommonFunction.findButtonClick(CommonFunction.java:468)
+	at com.sparky.pagefunctions.ro.BusinessOwnerPageFunctions.ImplementationContractor(BusinessOwnerPageFunctions.java:1088)
+	at com.sparky.flows.ro.RadiationOncology.ImplementationContractor(RadiationOncology.java:288)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace652278729", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace652278729'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span class=&quot;rf-button-text&quot; style=&quot;border: solid 2px white&quot;&gt;...&lt;/span&gt; is not clickable at point (93, 693). Other element would receive the click: &lt;button id=&quot;rfFLButton1680476&quot; class=&quot;rf-file-input-button rf-file-button rf-proxy-button ng-scope&quot; data-ng-disabled=&quot;!object.uploadComponent.enableFileSelection&quot; data-ng-readonly=&quot;object.readonly || form.readonly&quot; data-ng-if=&quot;object.visible&quot; tabindex=&quot;0&quot; data-ng-click=&quot;triggerUpload(&apos;rfElement&apos; + object.id)&quot; title=&quot;&quot;&gt;...&lt;/button&gt;
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;MPALANISAMY&apos;, ip: &apos;10.1.50.158&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51176}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\Users\MEENAS~1.PAL\AppData\Local\Temp\scoped_dir8848_18802}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 58273cc09d597660300f71f1c479cd2c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.sparky.commonfunctions.ro.CommonFunction.findButtonClick(CommonFunction.java:468)
+	at com.sparky.pagefunctions.ro.BusinessOwnerPageFunctions.ImplementationContractor(BusinessOwnerPageFunctions.java:1088)
+	at com.sparky.flows.ro.RadiationOncology.ImplementationContractor(RadiationOncology.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>58</td>
+<td>com.sparky.flows.ro.RadiationOncology@29bd2796</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sparky.flows.ro.RadiationOncology.ImplementationContractor()'><b>ImplementationContractor</b><br>Test class: com.sparky.flows.ro.RadiationOncology<br>Parameters: RO [Userid=RF_TestUser_114, Password=RF_Te_06_25_19, Role=RO_AA, ExecuteFlag=N]<br/>
+<a href="#Output-1195009696" onClick='toggleBox("Output-1195009696", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1195009696" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195009696">
+Listener Completed executing following method : RadiationOncology.ImplementationContractor<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_114, Password=RF_Te_06_25_19, Role=RO_AA, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_114, Password=RF_Te_06_25_19, Role=RO_AA, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener About to begin executing following method : RadiationOncology.CloseBrowser<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sparky.flows.ro.RadiationOncology@29bd2796</td></tr>
+<tr>
+<td title='com.sparky.flows.ro.RadiationOncology.ImplementationContractor()'><b>ImplementationContractor</b><br>Test class: com.sparky.flows.ro.RadiationOncology<br>Parameters: RO [Userid=IC_2_Perf_5000, Password=Pt_06242019, Role=RO_BO, ExecuteFlag=N]<br/>
+<a href="#Output-1876255695" onClick='toggleBox("Output-1876255695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1876255695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1876255695">
+Listener Completed executing following method : RadiationOncology.ImplementationContractor<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=IC_2_Perf_5000, Password=Pt_06242019, Role=RO_BO, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=IC_2_Perf_5000, Password=Pt_06242019, Role=RO_BO, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener About to begin executing following method : RadiationOncology.CloseBrowser<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sparky.flows.ro.RadiationOncology@29bd2796</td></tr>
+<tr>
+<td title='com.sparky.flows.ro.RadiationOncology.ImplementationContractor()'><b>ImplementationContractor</b><br>Test class: com.sparky.flows.ro.RadiationOncology<br>Parameters: RO [Userid=RF_TestUser_39, Password=RF_Te_06_25_19, Role=RO_MT, ExecuteFlag=N]<br/>
+<a href="#Output-1173156384" onClick='toggleBox("Output-1173156384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1173156384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1173156384">
+Listener Completed executing following method : RadiationOncology.ImplementationContractor<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_39, Password=RF_Te_06_25_19, Role=RO_MT, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_39, Password=RF_Te_06_25_19, Role=RO_MT, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener About to begin executing following method : RadiationOncology.CloseBrowser<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sparky.flows.ro.RadiationOncology@29bd2796</td></tr>
+<tr>
+<td title='com.sparky.flows.ro.RadiationOncology.ImplementationContractor()'><b>ImplementationContractor</b><br>Test class: com.sparky.flows.ro.RadiationOncology<br>Parameters: RO [Userid=RF_TestUser_64, Password=RF_Te_06_25_19, Role=RO_HD, ExecuteFlag=N]<br/>
+<a href="#Output-1272544894" onClick='toggleBox("Output-1272544894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1272544894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1272544894">
+Listener Completed executing following method : RadiationOncology.ImplementationContractor<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_64, Password=RF_Te_06_25_19, Role=RO_HD, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_64, Password=RF_Te_06_25_19, Role=RO_HD, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener About to begin executing following method : RadiationOncology.CloseBrowser<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sparky.flows.ro.RadiationOncology@29bd2796</td></tr>
+<tr>
+<td title='com.sparky.flows.ro.RadiationOncology.ImplementationContractor()'><b>ImplementationContractor</b><br>Test class: com.sparky.flows.ro.RadiationOncology<br>Parameters: RO [Userid=RF_TestUser_139, Password=RF_Te_06_25_19, Role=RO_PA, ExecuteFlag=N]<br/>
+<a href="#Output-2075160759" onClick='toggleBox("Output-2075160759", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075160759" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075160759">
+Listener Completed executing following method : RadiationOncology.ImplementationContractor<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_139, Password=RF_Te_06_25_19, Role=RO_PA, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_139, Password=RF_Te_06_25_19, Role=RO_PA, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener About to begin executing following method : RadiationOncology.CloseBrowser<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sparky.flows.ro.RadiationOncology@29bd2796</td></tr>
+<tr>
+<td title='com.sparky.flows.ro.RadiationOncology.ImplementationContractor()'><b>ImplementationContractor</b><br>Test class: com.sparky.flows.ro.RadiationOncology<br>Parameters: RO [Userid=RF_TestUser_14, Password=RF_Te_06_25_19, Role=RO_BO, ExecuteFlag=N]<br/>
+<a href="#Output-234562470" onClick='toggleBox("Output-234562470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-234562470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-234562470">
+Listener Completed executing following method : RadiationOncology.ImplementationContractor<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_14, Password=RF_Te_06_25_19, Role=RO_BO, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener Test Method resides in com.sparky.flows.ro.RadiationOncology<br/>
+Listener Test Method had the following parameters : nullRO [Userid=RF_TestUser_14, Password=RF_Te_06_25_19, Role=RO_BO, ExecuteFlag=N],<br/>
+Listener Test Status has : Pass<br/>
+Listener About to begin executing following method : RadiationOncology.CloseBrowser<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sparky.flows.ro.RadiationOncology@29bd2796</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RO_MainFlowSuite]">
+  <listeners>
+    <listener class-name="com.sparky.listeners.ro.Listener"/>
+  </listeners>
+  <test name="RO_MainFlowTest">
+    <classes>
+      <class name="com.sparky.flows.ro.RadiationOncology"/>
+    </classes>
+  </test> <!-- RO_MainFlowTest -->
+  <test name="RO_MainFlowTest(failed)">
+    <classes>
+      <class name="com.sparky.flows.ro.RadiationOncology">
+        <methods>
+          <include name="ImplementationContractor" invocation-numbers="3"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.sparky.flows.ro.RadiationOncology -->
+    </classes>
+  </test> <!-- RO_MainFlowTest(failed) -->
+</suite> <!-- Failed suite [RO_MainFlowSuite] -->
